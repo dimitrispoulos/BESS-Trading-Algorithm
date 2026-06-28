@@ -79,6 +79,7 @@ for price in prices_eur:
         money -= charge_amount * price                                                   # Cost of buying energy
         status = 'Charging'
 
+    # Discharge Logic: If the price is greater than or equal to the sell price and the battery has energy, discharge the battery.
     elif price >= sell_price and battery_level > 0:
         max_discharge_possible = battery_level * ONE_WAY_EFFICIENCY                     # Calculate the maximum discharge possible based on the current battery level.
         discharge_amount = min(MAX_POWER_MW, max_discharge_possible)                    # Calculate the actual discharge amount based on the maximum power limit and the current battery level.
