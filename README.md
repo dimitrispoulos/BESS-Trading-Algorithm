@@ -18,9 +18,9 @@ This script simulates a Battery Energy Storage System (BESS) trading algorithm t
 
 
 ## Dashboard
-- 📈 **Market Price per Hour** — Full Day-Ahead price curve with green upward triangles (buy) and red downward triangles (sell) marking each decision
-- 🔋 **State of Charge per Hour** — Filled area chart showing the battery energy level (MWh) rising during charging and falling during discharging
-- 💰 **Profit / Loss per Hour** — Bar chart showing the net cash flow (€) for each hour: green for revenue, red for cost
+- **Market Price per Hour** — Full Day-Ahead price curve with green upward triangles (buy) and red downward triangles (sell) marking each decision
+- **State of Charge per Hour** — Filled area chart showing the battery energy level (MWh) rising during charging and falling during discharging
+- **Profit / Loss per Hour** — Bar chart showing the net cash flow (€) for each hour: green for revenue, red for cost
 
 
 -----
